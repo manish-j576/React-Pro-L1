@@ -1,5 +1,5 @@
 import { Accodian } from "./components/accordian";
-import RandomColor from "./components/accordian/randomColor";
+import RandomColor from "./components/accordian/randomCol";
 
 function App() {
   return (
