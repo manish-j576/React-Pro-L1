@@ -1,11 +1,13 @@
-import { Accodian } from "./components/accordian"
-
+import { Accodian } from "./components/accordian";
+import RandomColor from "./components/accordian/randomColor";
 
 function App() {
-
-  return <>
-  <Accodian></Accodian>
-  </>
+  return (
+    <>
+      {/* <Accodian></Accodian> */}
+      <RandomColor></RandomColor>
+    </>
+  );
 }
 
-export default App
+export default App;
